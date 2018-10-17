@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yashas/projects/cproj/src/main/scala/SparkPageRank.scala:27:17: not found: type Breaks[0m
-[0m[[0m[31merror[0m] [0m[0m	val loop = new Breaks[0m
-[0m[[0m[31merror[0m] [0m[0m	               ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
