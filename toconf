@@ -1,0 +1,11 @@
+cat id_rsa.pub >> .ssh/authorized_keys;
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install emacs -y;
+sudo apt-get -y install openjdk-8-jdk-headless scala;
+wget https://www-eu.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz;
+rm toconf id_rsa.pub;
+tar -xvzf spark-2.3.2-bin-hadoop2.7.tgz;
+mkdir server;
+mv spark-2.3.2-bin-hadoop2.7 server;
+rm spark-2.3.2-bin-hadoop2.7.tgz;
+sudo apt-get install w3m w3m-img nmap -y;
+echo "#Spark installation\n" >> ~/.bashrc;
