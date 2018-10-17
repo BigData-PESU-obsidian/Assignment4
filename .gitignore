@@ -3,3 +3,6 @@
 
 # Ignore temporary jar files
 *.jar
+
+# Ignore .css files
+*.css
